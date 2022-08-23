@@ -13,6 +13,7 @@ Steps to trigger the tests
 > git clone https://github.com/vickygc2001/SampleTests.git
 
 3) Install all the dependencies using the below command
+> cd SampleTests/
 > npm install
 
 4) To run API tests run the below command
