@@ -1,0 +1,25 @@
+{
+  "name": "demoproject",
+  "version": "1.0.0",
+  "description": "Sample Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "apiTest": "mocha ./APITests/final.js"
+  },
+  "author": "Vivek",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.12.1",
+    "@wdio/cucumber-framework": "^6.11.1",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "mocha": "6.2.3",
+    "chai": "^4.3.0",
+    "chromedriver": "^104.0.0",
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-wait-for": "2.2.6",
+    "axios": "0.27.2"
+  }
+}
